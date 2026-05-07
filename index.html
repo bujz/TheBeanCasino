@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bean Casino</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div>
+    Player: <span id="playerName">Will</span>
+  </div>
+
+  <div class="bankroll-box">
+    Bankroll: $<span id="bankroll">1000</span>
+  </div>
+</div>
+
+<h1>♠ Bean Casino ♥</h1>
+
+<div class="table">
+
+  <div class="dealer-area">
+
+    <div class="trilux-box">
+      <div class="trilux-title">TRILUX PAYS</div>
+      <div>Straight Flush 40:1</div>
+      <div>3 of a Kind 30:1</div>
+      <div>Straight 10:1</div>
+      <div>Flush 5:1</div>
+      <div>Pair 1:1</div>
+    </div>
+
+    <img id="dealerImage" class="dealer-image" src="dealer1.png">
+
+    <div id="dealerName" class="dealer-name">
+      Bean
+    </div>
+
+    <div class="dealer-bubble">
+      Welcome to Bean Casino.
+    </div>
+
+  </div>
+
+  <div class="cards-row">
+
+    <div class="card">A♠</div>
+    <div class="card back">★</div>
+
+  </div>
+
+  <div class="section-title">
+    BLACKJACK PAYS 3 TO 2
+  </div>
+
+  <div class="player-box">
+
+    <div class="hand-title">
+      Hand Bet: $50
+    </div>
+
+    <div class="cards-row">
+      <div class="card">K♠</div>
+      <div class="card">Q♥</div>
+    </div>
+
+  </div>
+
+  <div class="betting-area">
+
+    <div class="bet-circle main-bet">
+      <div>MAIN</div>
+      <strong>$50</strong>
+    </div>
+
+    <div class="bet-circle trilux-bet">
+      <div>TRILUX</div>
+      <strong>$10</strong>
+    </div>
+
+  </div>
+
+  <div class="chips">
+
+    <button class="chip red">$10</button>
+    <button class="chip blue">$25</button>
+    <button class="chip black">$50</button>
+    <button class="chip purple">$100</button>
+    <button class="chip green">$250</button>
+
+  </div>
+
+  <div class="actions">
+
+    <div class="actions-left">
+      <button>Double</button>
+      <button>Split</button>
+      <button class="book-btn">Book</button>
+    </div>
+
+    <div class="actions-right">
+      <button class="hit-btn">Hit</button>
+      <button class="stand-btn">Stand</button>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="message-box">
+  Your move.
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
